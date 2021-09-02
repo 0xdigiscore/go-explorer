@@ -32,9 +32,7 @@ JWT:
   Expire: 7200
 Database:
   DBType: mysql
-  UserName: root
-  Password: 123456
-  Host: 127.0.0.1:3306
+  UserName: admin
   DBName: blockchain
   TablePrefix: blockchain_
   Charset: utf8
