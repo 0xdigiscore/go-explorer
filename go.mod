@@ -1,25 +1,14 @@
-module github.com/itering/subscan
+module go-explorer
 
-go 1.12
+go 1.16
 
 require (
-	github.com/garyburd/redigo v1.6.0
-	github.com/go-kratos/kratos v0.5.0
-	github.com/go-sql-driver/mysql v1.5.0
-	github.com/golang/protobuf v1.3.5
-	github.com/gorilla/websocket v1.4.2
-	github.com/huandu/xstrings v1.3.2
-	github.com/itering/subscan-plugin v0.2.3
-	github.com/itering/substrate-api-rpc v0.4.0
-	github.com/jinzhu/gorm v1.9.14
-	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
-	github.com/panjf2000/ants/v2 v2.4.0
-	github.com/pkg/errors v0.9.1
-	github.com/sevlyar/go-daemon v0.1.5
-	github.com/shopspring/decimal v1.2.0
-	github.com/stretchr/testify v1.7.0
-	github.com/urfave/cli v1.20.0
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22 // indirect
-	gopkg.in/go-playground/validator.v9 v9.29.1
+	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/prometheus/common v0.30.0 // indirect
+	github.com/prometheus/procfs v0.7.3 // indirect
+	github.com/tal-tech/go-zero v1.1.10
+	go.uber.org/automaxprocs v1.4.0 // indirect
+	golang.org/x/sys v0.0.0-20210831042530-f4d43177bf5e // indirect
+	google.golang.org/grpc v1.40.0 // indirect
 )
