@@ -1,3 +1,3 @@
 # go-explorer
 
-go-explorer 是一款通用的区块浏览器
+go-explorer is a universal block explorer
