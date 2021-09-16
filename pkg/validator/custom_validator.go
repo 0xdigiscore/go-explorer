@@ -10,7 +10,6 @@ import (
 type CustomValidator struct {
 	Once     sync.Once
 	Validate *val.Validate
-	flag  int
 }
 
 func NewCustomValidator() *CustomValidator {
