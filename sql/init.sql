@@ -1,6 +1,6 @@
 drop table blockchain_blocks;
 drop table blockchain_accounts;
-drop table blockchain_transactions;
+//drop table blockchain_transactions;
 
 create table if not exists blockchain_blocks 
 (
